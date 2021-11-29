@@ -38,8 +38,6 @@ int main()
         nv_vector.push_back(Name_value(name,value));
     }
 
-
-
     for (int i = 0; i < nv_vector.size(); ++i) {
 
         cout << "(" << nv_vector[i].name << ',' << nv_vector[i].value << ")\n";
